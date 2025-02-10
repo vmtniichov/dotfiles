@@ -16,3 +16,16 @@ export PATH="/home/empty/.local/bin:$PATH"
 [ -f /opt/miniconda3/etc/profile.d/conda.sh ] && source /opt/miniconda3/etc/profile.d/conda.sh
 # Allow no legacy for conda to works
 export CRYPTOGRAPHY_OPENSSL_NO_LEGACY=1
+eval "$(starship init bash)"
+alias k='kubectl'
+alias kn='kubectl -n'
+alias h='helm'
+alias hun='helm upgrade -n'
+
+
+# alias for lsd
+#alias ls='lsd'
+#alias ll='ls -l'
+#alias la='ls -a'
+alias lla='ls -la'
+#alias lt='ls --tree'

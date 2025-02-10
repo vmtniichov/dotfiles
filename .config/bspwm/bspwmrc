@@ -27,5 +27,14 @@ dunst &
 
 polybar mybar 2>&1 | tee -a /tmp/polymybar.log & disown &
 polybar bottombar 2>&1 | tee -a /tmp/polybottombar.log & disown &
-feh --bg-fill --randomize ~/Wallpapers/*
+feh --bg-fill ~/Wallpapers/field.jpg
 
+# run the xrandr command if an external monitor is connected to the
+# laptop.  This must be executed before the polybar command, so that
+# polybar can set the two separate bars properly.
+# if [ -x $HOME/bin/dual_monitor ];then
+#    dual_monitor
+# fi
+
+#bspc monitor eDP-1    
+#bspc monitor HDMI-1    

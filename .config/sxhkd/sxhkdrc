@@ -139,7 +139,7 @@ super + shift + b
 	feh --bg-fill --randomize ~/Wallpapers/*
 
 alt + shift + x
-	bash ~/.config/rofi/powermenu/type-5/powermenu.sh
+	bash ~/.config/rofi/powermenu/type-6/powermenu.sh
 	# betterlockscreen -l
 
 # Focus a floating window / Cycle floating windows.
