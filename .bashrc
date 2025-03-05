@@ -25,7 +25,13 @@ alias hun='helm upgrade -n'
 
 # alias for lsd
 #alias ls='lsd'
-#alias ll='ls -l'
-#alias la='ls -a'
+alias ll='ls -l'
+alias la='ls -a'
 alias lla='ls -la'
-#alias lt='ls --tree'
+alias lt='ls --tree'
+
+alias juup='jupyter lab --ip=0.0.0.0 --allow-root --NotebookApp.token="" --NotebookApp.password=""'
+
+eval "$(zoxide init bash)"
+alias jsonpp="python -c 'import sys, json; print(json.dumps(json.load(sys.stdin), sort_keys=True, indent=2))'"
+alias sf="spf"

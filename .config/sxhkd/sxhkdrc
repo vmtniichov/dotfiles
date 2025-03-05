@@ -153,9 +153,6 @@ super + {_,shift + }c
 	    || bspc node 'last.local.!focused.!hidden.!floating.!fullscreen.window' -f \
 	    || bspc node  'any.local.!focused.!hidden.!floating.!fullscreen.window' -f
 
-super + p
-	import $HOME/Pictures/Screenshots/Screenshot\ $(date).png && notify-send "Screenshot captured"
-
 super + shift + p
-	import -window root $HOME/Pictures/Screenshots/Screenshot\ $(date).png
+	flameshot gui
 
