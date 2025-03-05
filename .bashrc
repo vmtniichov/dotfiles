@@ -35,3 +35,4 @@ alias juup='jupyter lab --ip=0.0.0.0 --allow-root --NotebookApp.token="" --Noteb
 eval "$(zoxide init bash)"
 alias jsonpp="python -c 'import sys, json; print(json.dumps(json.load(sys.stdin), sort_keys=True, indent=2))'"
 alias sf="spf"
+alias lg="lazygit"
